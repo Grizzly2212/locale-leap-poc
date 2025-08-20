@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    width: 300px;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.setting {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+label {
+    margin-right: 5px;
+}
+
+input {
+    flex-grow: 1;
+    margin-right: 5px;
+}
+
+button {
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+#ignored-list {
+    list-style: none;
+    padding-left: 0;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+#ignored-list li {
+    padding: 2px;
+    font-family: monospace;
+}
